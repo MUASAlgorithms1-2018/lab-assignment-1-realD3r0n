@@ -1,0 +1,50 @@
+void merge(int a[], int aSize, int array1[], int sizeArray1, int array2[], int sizeArray2) {
+    int indexI = 0;
+    int indexK = 0;
+    int *result = new int[sizeArray1 + sizeArray2];
+
+    for (int indexJ = 0; indexJ <= sizeArray1 + sizeArray2; indexJ++) {
+        if (array1[indexI] < array2[indexK]) {
+            result[indexJ] = a[indexI];
+            indexI++;
+        } else {
+            result[indexJ] = array1[indexK];
+            indexK++;
+        }
+
+        for (int i = 0; i < aSize; i++){
+            a[i] = result[i];
+        }
+
+    }
+
+
+}
+
+void merge_sort(int *a, int size) {
+    if (size <= 1) {
+        return;
+    }
+
+
+    int end = size - 1;
+    int mid = end / 2;
+    int sizeArry1 = mid + 1;
+    int sizeArry2 = end - mid;
+
+    int *arry1 = new int[sizeArry1];
+    int *arry2 = new int[sizeArry2];
+
+    for (int i = 0; i <= mid; i++) {
+        arry1[i] = a[i];
+    }
+    for (int i = 0 + 1; i <= end; i++) {
+        arry2[i - mid - 1] = a[i];
+    }
+
+    merge_sort(arry1, sizeArry1);
+    merge_sort(arry2, sizeArry2);
+    merge(a, size, arry1, sizeArry1, arry2, sizeArry2);
+
+    return;
+}

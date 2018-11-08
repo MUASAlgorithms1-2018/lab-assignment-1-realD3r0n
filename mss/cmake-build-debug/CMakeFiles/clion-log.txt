@@ -1,0 +1,8 @@
+C:\Users\local\.CLion2018.2\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/local/CLionProjects/mss
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/local/CLionProjects/mss/cmake-build-debug
+
+Problems were encountered while collecting compiler information:
+	Unexpected compiler output. This compiler might be unsupported.
+	If you are using GCC/Clang, please report the bug in https://youtrack.jetbrains.com/issues/CPP.
