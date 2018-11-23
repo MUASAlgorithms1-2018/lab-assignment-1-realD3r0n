@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/local/Documents/Stud/AUD/Lab/git/lab-assignment-1-realD3r0n/binarySearchTree/BinarySearchTree.h
+vertex.h
+C:/Users/local/Documents/Stud/AUD/Lab/git/lab-assignment-1-realD3r0n/binarySearchTree/vertex.h
+iostream
+-
+
+C:/Users/local/Documents/Stud/AUD/Lab/git/lab-assignment-1-realD3r0n/binarySearchTree/main.cpp
+iostream
+-
+cstdlib
+-
+BinarySearchTree.h
+C:/Users/local/Documents/Stud/AUD/Lab/git/lab-assignment-1-realD3r0n/binarySearchTree/BinarySearchTree.h
+
+C:/Users/local/Documents/Stud/AUD/Lab/git/lab-assignment-1-realD3r0n/binarySearchTree/vertex.h
+

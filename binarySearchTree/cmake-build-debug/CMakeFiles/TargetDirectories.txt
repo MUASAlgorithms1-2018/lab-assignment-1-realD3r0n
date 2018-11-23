@@ -1,0 +1,3 @@
+C:/Users/local/Documents/Stud/AUD/Lab/git/lab-assignment-1-realD3r0n/binarySearchTree/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/local/Documents/Stud/AUD/Lab/git/lab-assignment-1-realD3r0n/binarySearchTree/cmake-build-debug/CMakeFiles/binarySearchTree.dir
+C:/Users/local/Documents/Stud/AUD/Lab/git/lab-assignment-1-realD3r0n/binarySearchTree/cmake-build-debug/CMakeFiles/rebuild_cache.dir
